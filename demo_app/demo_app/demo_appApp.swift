@@ -14,11 +14,15 @@ struct demo_appApp: App {
     private var fetcher = Classification().identify()
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
-                GridView()
+            if #available(iOS 16.0, *) {
+                NavigationStack {
+                    GridView()
+                }
+                .environmentObject(dataModel)
+                .navigationViewStyle(.stack)
+            } else {
+                // Fallback on earlier versions
             }
-            .environmentObject(dataModel)
-            .navigationViewStyle(.stack)
         }
     }
 //    var body: some Scene {

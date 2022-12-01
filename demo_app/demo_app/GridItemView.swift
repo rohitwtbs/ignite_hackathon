@@ -13,14 +13,18 @@ struct GridItemView: View {
 
     var body: some View {
         ZStack(alignment: .topTrailing) {
-            AsyncImage(url: item.url) { image in
-                image
-                    .resizable()
-                    .scaledToFill()
-            } placeholder: {
-                ProgressView()
+            if #available(iOS 15.0, *) {
+                AsyncImage(url: item.url) { image in
+                    image
+                        .resizable()
+                        .scaledToFill()
+                } placeholder: {
+                    ProgressView()
+                }
+                .frame(width: size, height: size)
+            } else {
+                // Fallback on earlier versions
             }
-            .frame(width: size, height: size)
         }
     }
 }

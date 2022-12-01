@@ -23,27 +23,31 @@ struct GridView: View {
             ScrollView {
                 LazyVGrid(columns: gridColumns) {
                     ForEach(dataModel.items) { item in
-                        GeometryReader { geo in
-                            NavigationLink(destination: DetailView(item: item)) {
-                                GridItemView(size: geo.size.width, item: item)
-                            }
-                        }
-                        .cornerRadius(8.0)
-                        .aspectRatio(1, contentMode: .fit)
-                        .overlay(alignment: .topTrailing) {
-                            if isEditing {
-                                Button {
-                                    withAnimation {
-                                        dataModel.removeItem(item)
-                                    }
-                                } label: {
-                                    Image(systemName: "xmark.square.fill")
-                                                .font(Font.title)
-                                                .symbolRenderingMode(.palette)
-                                                .foregroundStyle(.white, .red)
+                        if #available(iOS 15.0, *) {
+                            GeometryReader { geo in
+                                NavigationLink(destination: DetailView(item: item)) {
+                                    GridItemView(size: geo.size.width, item: item)
                                 }
-                                .offset(x: 7, y: -7)
                             }
+                            .cornerRadius(8.0)
+                            .aspectRatio(1, contentMode: .fit)
+                            .overlay(alignment: .topTrailing) {
+                                if isEditing {
+                                    Button {
+                                        withAnimation {
+                                            dataModel.removeItem(item)
+                                        }
+                                    } label: {
+                                        Image(systemName: "xmark.square.fill")
+                                            .font(Font.title)
+                                            .symbolRenderingMode(.palette)
+                                            .foregroundStyle(.white, .red)
+                                    }
+                                    .offset(x: 7, y: -7)
+                                }
+                            }
+                        } else {
+                            // Fallback on earlier versions
                         }
                     }
                 }
@@ -53,7 +57,11 @@ struct GridView: View {
         .navigationBarTitle("Image Gallery")
         .navigationBarTitleDisplayMode(.inline)
         .sheet(isPresented: $isAddingPhoto) {
-            PhotoPicker()
+            if #available(iOS 15.0, *) {
+                PhotoPicker()
+            } else {
+                // Fallback on earlier versions
+            }
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
@@ -79,3 +87,4 @@ struct GridView_Previews: PreviewProvider {
             .previewDevice("iPad (8th generation)")
     }
 }
+

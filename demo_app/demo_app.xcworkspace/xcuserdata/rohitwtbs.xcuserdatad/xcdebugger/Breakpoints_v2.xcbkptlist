@@ -14,8 +14,8 @@
             filePath = "demo_app/demo_appApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "identify()"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "demo_app/demo_appApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "demo_appApp"
             landmarkType = "14">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "demo_app/demo_appApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "demo_appApp"
             landmarkType = "14">
          </BreakpointContent>
@@ -78,13 +78,13 @@
             filePath = "demo_app/demo_appApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "identify()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "4115A492-6BEA-42BA-96DC-EF685EB2BED8 - 8a41fae807880d48"
+                  uuid = "4115A492-6BEA-42BA-96DC-EF685EB2BED8 - 8a41fae807880d6f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -94,12 +94,12 @@
                   urlString = "file:///Users/rohitwtbs/Desktop/demo_app/demo_app/demo_appApp.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "840">
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "115">
                </Location>
                <Location
-                  uuid = "4115A492-6BEA-42BA-96DC-EF685EB2BED8 - 8a41fae807880d48"
+                  uuid = "4115A492-6BEA-42BA-96DC-EF685EB2BED8 - 8a41fae807880d6f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -109,24 +109,9 @@
                   urlString = "file:///Users/rohitwtbs/Desktop/demo_app/demo_app/demo_appApp.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "914">
-               </Location>
-               <Location
-                  uuid = "4115A492-6BEA-42BA-96DC-EF685EB2BED8 - 8a41fae807880d48"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "demo_app.Classification.identify() -&gt; ()"
-                  moduleName = "demo_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rohitwtbs/Desktop/demo_app/demo_app/demo_appApp.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "1010">
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "403">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -141,57 +126,10 @@
             filePath = "demo_app/demo_appApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "identify()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "717D952B-CF12-4BAA-AB4A-779E00F56686 - 8a41fae807880d48"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "demo_app.Classification.identify() -&gt; ()"
-                  moduleName = "demo_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rohitwtbs/Desktop/demo_app/demo_app/demo_appApp.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "840">
-               </Location>
-               <Location
-                  uuid = "717D952B-CF12-4BAA-AB4A-779E00F56686 - 8a41fae807880d48"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "demo_app.Classification.identify() -&gt; ()"
-                  moduleName = "demo_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rohitwtbs/Desktop/demo_app/demo_app/demo_appApp.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "914">
-               </Location>
-               <Location
-                  uuid = "717D952B-CF12-4BAA-AB4A-779E00F56686 - 8a41fae807880d48"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "demo_app.Classification.identify() -&gt; ()"
-                  moduleName = "demo_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rohitwtbs/Desktop/demo_app/demo_app/demo_appApp.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "1010">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -204,8 +142,8 @@
             filePath = "demo_app/demo_appApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "identify()"
             landmarkType = "7">
          </BreakpointContent>
@@ -220,10 +158,57 @@
             filePath = "demo_app/demo_appApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "identify()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A86135DE-B9D4-405A-8DEE-B6215823AC92 - 8a41fae807880cba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo_app.Classification.identify() -&gt; ()"
+                  moduleName = "demo_app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohitwtbs/Desktop/demo_app/demo_app/demo_appApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  uuid = "A86135DE-B9D4-405A-8DEE-B6215823AC92 - 8a41fae807880cba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo_app.Classification.identify() -&gt; ()"
+                  moduleName = "demo_app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohitwtbs/Desktop/demo_app/demo_app/demo_appApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "914">
+               </Location>
+               <Location
+                  uuid = "A86135DE-B9D4-405A-8DEE-B6215823AC92 - 8a41fae807880cba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "demo_app.Classification.identify() -&gt; ()"
+                  moduleName = "demo_app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohitwtbs/Desktop/demo_app/demo_app/demo_appApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1010">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
