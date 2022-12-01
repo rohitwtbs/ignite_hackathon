@@ -58,7 +58,8 @@ struct GridView: View {
         .navigationBarTitleDisplayMode(.inline)
         .sheet(isPresented: $isAddingPhoto) {
             if #available(iOS 15.0, *) {
-                PhotoPicker()
+//                PhotoPicker()
+                FilterList()
             } else {
                 // Fallback on earlier versions
             }
@@ -74,6 +75,14 @@ struct GridView: View {
                     isAddingPhoto = true
                 } label: {
                     Image(systemName: "plus")
+                }
+                .disabled(isEditing)
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button{
+                    isAddingPhoto = true
+                } label: {
+                    Image(systemName: "minus")
                 }
                 .disabled(isEditing)
             }
